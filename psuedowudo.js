@@ -31,8 +31,42 @@
 //     }
 //   }
 // }
-function getCard() {
+
+// scoreBoard.innerHTML += player1.length;
+
+//problems with code;
+/* need to fix the issue where if the card matches during the war and 
+the player does not have at least 4 cards he/she 
+loses */
+
+// function getCard() {
+//   let element = document.createElement("div");
+//   let element2 = document.getElementById("cardRen");
+//   element2.setAttribute(
+//     "src",
+//     `./poker-cards/${firstCard.score}._of_${firstCard.suits}.png`
+//   );
+// }
+
+function getWinners() {
   let element = document.createElement("div");
   let element2 = document.getElementById("cardRen");
   element2.setAttribute("src", "2_of_clubs.png");
+}
+
+function findWinner() {
+  if (player1.length === 1 || player1.length === 0) {
+    alert(`player 1 has lost `);
+  } else if (player2.length === 1 || player2.length === 0) {
+    alert(`player 2 has lost `);
+  }
+}
+
+let reset = function () {
+  new Deck();
+};
+
+function victory() {
+  let victoryMsg = document.getElementById("winningMsg");
+  victoryMsg.style.display = block;
 }

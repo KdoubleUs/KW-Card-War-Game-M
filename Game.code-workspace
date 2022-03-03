@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "GA-CARDWAR-FINAL",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5502,
+    "liveServer.settings.multiRootWorkspaceName": "GA-CARDWAR-FINAL",
+    "git.ignoreLimitWarning": true
+  }
+}
