@@ -10,7 +10,7 @@ A war is simple! Both player will place 3 cards (not revealed) into the pot and 
 
 ## Getting Started
 
-This game will be between you and the computer. Simply click the draw button and the cards will begin drawing each round. Click "draw" for each consecutive round.
+This game will be between you and the computer. Load the html file and begin playing. Simply click the draw button and the cards will begin drawing each round. Click "draw" for each consecutive round. The winner of each round will be display on the page. The card remaining will also inform you of each player deck count.
 
 ### Dependencies
 
